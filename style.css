@@ -14,11 +14,12 @@ body    {
     gap: 30px;
 }
 .order  {
-    box-shadow: 0px 2px 6px rgb(112,112,252);
+    box-shadow: 1px 2px 10px #000;
     padding: 10px;
     border-radius: 8px;
     background: rgb(99, 133, 246);
 }
 img {
     height: 100px;
+    box-shadow: 1px 2px 10px #000;
 }
