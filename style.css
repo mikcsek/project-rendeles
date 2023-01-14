@@ -6,6 +6,7 @@ body    {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: rgb(125,155,252);
 }
 #result {
     display: grid;
@@ -16,6 +17,7 @@ body    {
     box-shadow: 0px 2px 6px rgb(112,112,252);
     padding: 10px;
     border-radius: 8px;
+    background: rgb(99, 133, 246);
 }
 img {
     height: 100px;
