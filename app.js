@@ -52,3 +52,24 @@ const orders = [
     }
 ]
 
+window.addEventListener("load", async ()   =>  {
+
+    let output = "";
+
+    orders.map(order => {
+
+    output += `
+                <div class="order">
+                    <div>ID: ${order.id}</div>
+                    <div>Pizza: ${order.pizza}</div>
+                    <div>Extra: ${order.extra}</div>
+                    <div>Ital: ${order.ital}</div>
+                    <div>Ár: ${order.ar}</div>
+                    <img src="${order.kep}">
+                </div>
+                
+        `
+        result.innerHTML = output;
+    })
+   
+})
